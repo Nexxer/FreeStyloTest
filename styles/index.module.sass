@@ -1,0 +1,80 @@
+.page
+  background-color: black
+  text-align: center
+  font-family: "Franklin Gothic Medium", sans-serif
+  color: white
+  height: 100vh
+  text-align: center
+  padding: 10px
+  box-shadow: 0 0 0px white
+
+.title
+  margin: 15px 0
+  font-weight: lighter
+
+.link
+  display: inline-block
+  margin: 15px 0
+  padding: 5px
+  text-decoration: none
+  text-transform: uppercase
+  color: cornflowerblue
+  font-weight: bold
+  letter-spacing: 1.5px
+  position: relative
+  z-index: 1
+  transition: all .3s cubic-bezier(.2, 0, 0, 1)
+  &:after
+    content: ''
+    display: block
+    height: 2px
+    position: absolute
+    bottom: 0
+    right: 1.25rem
+    left: 1.25rem
+    background-color: #ffffff
+    transition: all .3s cubic-bezier(.2, 0, 0, 1)
+    transform-origin: bottom center
+    z-index: -1
+  &:hover
+    color: #2D2D2D
+    &:after
+      right: 0
+      left: 0
+      height: 100%
+
+.form
+  height: 45px
+  padding: 15px
+  font-size: 20px
+  display: flex
+  justify-content: center
+  align-items: center
+  &__label
+    margin-right: 10px
+  &__input
+    font-size: 17px
+    height: 100%
+    border-radius: 20px
+    padding-left: 10px
+    border: none
+    width: 50%
+    outline: none
+    //box-sizing: border-box
+    &:focus
+      box-shadow: 0 3px 10px yellow
+  &__button
+    font-size: 17px
+    height: 100%
+    padding: 5px 10px
+    margin-left: 20px
+    color: #fff
+    background-color: #0d6efd
+    border-color: #0d6efd
+    border-radius: 10px
+    width: 100px
+    cursor: pointer
+    &:hover
+      background-color: #0b5ed7
+      border-color: #0a58ca
+
