@@ -1,0 +1,31 @@
+.preloader
+  align-items: center
+  display: flex
+  flex-direction: column
+  height: 282px
+  justify-content: center
+  &__spin
+    animation: spin .75s infinite linear
+    border: 1px solid #1A1B22
+    border-bottom-color: #D1D2D6
+    border-radius: 50%
+    bottom: 0
+    box-sizing: border-box
+    display: block
+    height: 74px
+    left: 0
+    top: 0
+    width: 74px
+
+  &__text
+    color: #B6BCBF
+    font-size: 18px
+    font-weight: normal
+    line-height: 24px
+    margin: 24px 0 0
+    text-align: center
+
+@keyframes spin
+  100%
+    transform: rotate(360deg)
+
