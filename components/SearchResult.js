@@ -1,4 +1,4 @@
-import Card from "./Card";
+import Card from "./VideoCard";
 import style from "./../styles/searchResult.module.sass";
 
 function SearchResult({ videos, toggleLike, favoriteVideos, isSave }) {

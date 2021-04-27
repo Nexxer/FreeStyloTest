@@ -1,6 +1,6 @@
 import style from "./../styles/card.module.sass";
 
-function Card({ video, toggleLike, isSave }) {
+function Card({ video, toggleLike, isSave }) { 
   const toggleSaveCard = () => {
     toggleLike(video, isSave);
   };
