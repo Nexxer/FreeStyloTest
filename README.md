@@ -1,6 +1,11 @@
 <h1 align="center">Тестовое задание FreeStylo</h1>
 
+<div align="center">
+<a href="https://free-stylo-test-orcin.vercel.app/">Ссылка на опубликованный проект в gh-pages</a>
+</div>
+
 ---
+
 ## 📝 Оглавление
 
 - [О задании](#about)
