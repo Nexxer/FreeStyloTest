@@ -1,7 +1,7 @@
 <h1 align="center">Тестовое задание FreeStylo</h1>
 
 <div align="center">
-<a href="https://free-stylo-test-orcin.vercel.app/">Ссылка на опубликованный проект в gh-pages</a>
+<a href="https://free-stylo-test-orcin.vercel.app/">Ссылка на опубликованный проект в vercel/a>
 </div>
 
 ---
